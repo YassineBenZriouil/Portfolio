@@ -1,0 +1,92 @@
+.main_Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    margin: 5px;
+    border-radius: 5px;
+    border-bottom: 2px solid var(--primary-color);
+}
+.theme {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: large;
+    text-align: center;
+    padding: 5px;
+}
+.Prt_Name {
+    font-size: 25px;
+    text-align: center;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.norm_list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+    font-size: larger;
+}
+
+.sub_nav_open {
+    opacity: 1;
+    height: auto;
+    background-color: var(--primary-background-color);
+    color: var(--primary-color);
+    border-radius: 5px;
+    transition: opacity 0.5s ease, height 0.5s ease;
+}
+
+.sub_nav_closed {
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: opacity 0.5s ease, height 0.5s ease;
+}
+
+.brg_btn {
+    display: none;
+}
+.hidden-list {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 20px;
+    font-size: larger;
+    text-align: center;
+}
+
+.list_item,
+.react_link {
+    cursor: pointer;
+    color: var(--primary-color);
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.list_item:hover {
+    transform: scale(1.2);
+}
+
+@media screen and (max-width: 600px) {
+    .brg_btn {
+        display: block;
+        cursor: pointer;
+        border: none;
+        background-color: var(--primary-background-color);
+        color: var(--primary-color);
+    }
+
+    .norm_list {
+        display: none;
+    }
+}

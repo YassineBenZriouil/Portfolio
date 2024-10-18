@@ -1,0 +1,61 @@
+:root {
+    --primary-color: white;
+    --secondary-color: black;
+    --primary-background-color: black;
+    --secondary-background-color: white;
+}
+
+.main_contact {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 0px 10px;
+    height: auto;
+    background-color: var(--primary-background-color);
+    font-size: 25px;
+    color: var(--primary-color);
+    border-radius: 5px;
+}
+
+.main_contact h1 {
+    font-size: 60px;
+    color: var(--primary-color);
+}
+
+.main_contact h3 {
+    padding: 10px;
+    border-radius: 5px;
+    height: fit-content;
+    width: 50%;
+    border: 1px solid var(--secondary-color);
+    background-color: var(--secondary-background-color);
+    box-shadow: 2px 2px 25px var(--primary-color);
+    color: var(--secondary-color);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.main_contact h3:hover {
+    transform: scale(1.2);
+}
+
+a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+@media (max-width: 600px) {
+    .main_contact {
+        font-size: 20px;
+    }
+
+    .main_contact h1 {
+        font-size: 40px;
+    }
+
+    .main_contact h3 {
+        font-size: 18px;
+        width: auto;
+    }
+}

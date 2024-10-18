@@ -1,0 +1,65 @@
+:root {
+    --primary-color: white;
+    --secondary-color: black;
+    --primary-background-color: black;
+    --secondary-background-color: white;
+}
+
+.about_container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: var(--primary-background-color);
+    gap: 15px;
+    height: auto;
+    padding: 0px 20px;
+    border-radius: 5px;
+}
+
+.title {
+    font-size: 40px;
+    color: var(--primary-color);
+}
+
+.sub_title {
+    font-size: 20px;
+    color: var(--primary-color);
+}
+
+.text {
+    font-size: 15px;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.list {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-right: 30px;
+}
+
+.list li {
+    list-style: none;
+    text-align: center;
+    width: 150px;
+    height: 220px;
+    border: 1px solid var(--primary-color);
+    color: var(--secondary-color);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--secondary-background-color);
+    box-shadow: 5px 2px 10px var(--secondary-background-color);
+    cursor: pointer;
+}
+
+.list li:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
