@@ -100,9 +100,10 @@
     margin: 5px;
 }
 
-.home_social i {
+.home_social a i {
     cursor: pointer;
     width: 20px;
     height: 20px;
     transition: all 0.3s ease-in-out;
+    color: var(--primary-color);
 }

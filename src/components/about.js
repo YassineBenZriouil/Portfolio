@@ -7,15 +7,18 @@ function About() {
         <Animations>
             <div className="about_container">
                 <h1 className="title">About Me</h1>
-                <h3 className="sub_title">My Passion</h3>
+                <h3 className="sub_title">My Background</h3>
                 <p className="text">
-                    Hi! I'm a junior full-stack developer with a deep passion
-                    for creating dynamic web applications. I thrive on solving
-                    complex problems through coding and love bringing ideas to
-                    life. Learning new technologies is crucial to me as it
-                    sharpens my skills and motivates me to build innovative
-                    solutions. My goal is to develop applications that offer
-                    real value to users while growing as a developer.
+                    I am a focused junior full-stack developer, currently
+                    interning as part of my second-year web development training
+                    at OFPPT (Bac +2) in Morocco. I am dedicated to building
+                    functional and efficient web applications, and I approach
+                    problem-solving and learning with a structured mindset. I am
+                    proficient in developing complete websites using
+                    technologies such as React.js, Node.js, PHP, ASP.NET, and
+                    SQL/NoSQL databases. Additionally, I am expanding my
+                    expertise in cross-platform mobile application development
+                    using React Native and Flutter.
                 </p>
 
                 <h3 className="sub_title">Front End Skills</h3>
@@ -26,8 +29,8 @@ function About() {
                             alt="JavaScript"
                         />
                         <h3>JavaScript</h3>
-                        Proficient in creating interactive features and
-                        improving user experiences.
+                        Strong understanding of interactive features for
+                        seamless user experiences.
                     </li>
                     <li>
                         <img
@@ -35,7 +38,8 @@ function About() {
                             alt="Tailwind CSS"
                         />
                         <h3>Tailwind CSS</h3>
-                        Skilled in rapidly styling websites for a better UI.
+                        Proficient in quick styling for clean, responsive UI
+                        design.
                     </li>
                     <li>
                         <img
@@ -43,8 +47,8 @@ function About() {
                             alt="Bootstrap"
                         />
                         <h3>Bootstrap</h3>
-                        Adept at using responsive design to ensure compatibility
-                        across devices.
+                        Experienced with responsive design for consistent
+                        cross-device compatibility.
                     </li>
                     <li>
                         <img
@@ -52,8 +56,8 @@ function About() {
                             alt="React"
                         />
                         <h3>React</h3>
-                        Experienced in building dynamic UIs using
-                        component-based architecture.
+                        Knowledgeable in component-based architecture for
+                        efficient UI development.
                     </li>
                     <li>
                         <img
@@ -61,8 +65,8 @@ function About() {
                             alt="HTML & CSS"
                         />
                         <h3>HTML & CSS</h3>
-                        Skilled in structuring content and applying styles for
-                        visually appealing web pages.
+                        Solid skills in structuring and styling for visually
+                        appealing layouts.
                     </li>
                 </ul>
 
@@ -74,8 +78,7 @@ function About() {
                             alt="Node.js"
                         />
                         <h3>Node.js</h3>
-                        Experienced in building server-side applications and
-                        RESTful APIs.
+                        Familiar with server-side applications and RESTful APIs.
                     </li>
                     <li>
                         <img
@@ -84,8 +87,8 @@ function About() {
                             style={{ width: "48px", height: "48px" }}
                         />
                         <h3>Laravel</h3>
-                        Skilled in creating web applications using MVC
-                        architecture.
+                        Familiar with MVC-based development for building
+                        structured web apps.
                     </li>
                     <li>
                         <img
@@ -93,8 +96,8 @@ function About() {
                             alt="Python"
                         />
                         <h3>Python</h3>
-                        Proficient in using Python for back-end development and
-                        data analysis.
+                        Skilled in Python programming, with experience in
+                        scripting and automation.{" "}
                     </li>
                 </ul>
 
@@ -106,16 +109,8 @@ function About() {
                             alt="React Native"
                         />
                         <h3>React Native</h3>
-                        Proficient in building mobile apps with responsive
+                        Competent in mobile app development with responsive
                         designs.
-                    </li>
-                    <li>
-                        <img
-                            src="https://img.icons8.com/color/48/000000/flutter.png"
-                            alt="Flutter"
-                        />
-                        <h3>Flutter</h3>
-                        Skilled in creating cross-platform mobile applications.
                     </li>
                 </ul>
 
@@ -128,18 +123,15 @@ function About() {
                             style={{ width: "48px", height: "48px" }}
                         />
                         <h3>Godot</h3>
-                        Skilled in developing games and interactive content
-                        using a flexible game engine.
+                        Capable of creating interactive games and simulations.
                     </li>
                 </ul>
-
+                <br />
                 <h3 className="sub_title">Future Goals</h3>
                 <p className="text">
-                    I aim to become a highly skilled developer, working on
-                    projects that challenge my abilities and contribute to
-                    advancements in technology. I plan to expand my knowledge in
-                    areas like artificial intelligence and cloud computing to
-                    stay at the forefront of innovation.
+                    My goal is to become a versatile developer, expanding my
+                    skills in areas like AI and cloud computing to remain
+                    adaptive in a rapidly evolving tech landscape.
                 </p>
             </div>
         </Animations>

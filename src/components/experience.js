@@ -6,22 +6,24 @@ import Animations from "../static/animations";
 function Experience() {
     const experiences = [
         {
-            title: "Senior Full Stack Developer",
-            company: "For Tech",
-            duration: "Jan 2023 - Present",
-            description: "Developing web applications using React and Node.js.",
-        },
-        {
-            title: "Intern Software Developer",
-            company: "Hight Solutions",
-            duration: "Jun 2022 - Dec 2022",
-            description: "Assisted in front-end development projects.",
-        },
-        {
             title: "Web Development Bootcamp",
             company: "OFPPT",
-            duration: "2021",
+            duration: "2022 - 2025",
             description: "Learned HTML, CSS, JavaScript, and React.",
+        },
+        {
+            title: "Freelance Front-End Developer",
+            company: "Self-Employed",
+            duration: "2022 ",
+            description:
+                "Specialized in converting Figma designs into fully functional front-end websites, ensuring responsive and user-friendly interfaces using HTML, CSS, JavaScript, and React. Collaborated with clients to bring their design visions to life, meeting deadlines and maintaining high-quality standards.",
+        },
+        {
+            title: "Game Developer (Godot Engine)",
+            company: "Independent Game Development Team",
+            duration: "2023 ",
+            description:
+                "Worked as part of a small team in the development of a game using the Godot engine. Contributed to both the programming and design aspects of the game, focusing on game mechanics, UI integration, and ensuring smooth performance across platforms. Collaborated closely with team members to ensure project milestones were met.",
         },
     ];
     return (
@@ -40,6 +42,8 @@ function Experience() {
                         </li>
                     ))}
                 </ul>
+                <br />
+                <br />
             </div>
         </Animations>
     );

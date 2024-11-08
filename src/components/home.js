@@ -2,6 +2,7 @@ import React from "react";
 import "../style/home.css";
 import { Link } from "react-router-dom";
 import Animations from "../static/animations";
+import resume from "../static/Yassine Ben Zriouil CV.pdf";
 
 function Home() {
     return (
@@ -17,14 +18,25 @@ function Home() {
                     <h1 className="home_name">Ben Zriouil Yassine</h1>
                     <h2 className="home_title">Full-Stack-Developer</h2>
                     <div className="home_btns">
-                        <button className="btn_black">Download CV</button>
+                        <a
+                            href={resume}
+                            download={"Yassine Ben Zriouil CV.pdf"}
+                        >
+                            <button className="btn_black">Download CV</button>
+                        </a>
+
                         <Link to="/contact">
                             <button className="btn_white">Contact Info</button>
                         </Link>
                     </div>
                     <div className="home_social">
-                        <i class="fa-brands fa-linkedin fa-2xl"></i>
-                        <i class="fa-brands fa-github fa-2xl "></i>
+                        {" "}
+                        <a href="https://github.com/YassineBenZriouil">
+                            <i class="fa-brands fa-github fa-2xl "></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/yassine-ben-zriouil-64b735276/">
+                            <i class="fa-brands fa-linkedin fa-2xl"></i>
+                        </a>
                     </div>
                 </div>
             </div>
