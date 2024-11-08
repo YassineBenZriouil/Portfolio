@@ -6,6 +6,18 @@ import Animations from "../static/animations";
 function Experience() {
     const experiences = [
         {
+            title: "Jenior Full Stack Developer",
+            company: "For Tech",
+            duration: "Jan 2023 - Present",
+            description: "Developing web applications using React and Node.js.",
+        },
+        {
+            title: "Intern Software Developer",
+            company: "Hight Solutions",
+            duration: "Jun 2022 - Dec 2022",
+            description: "Assisted in front-end development projects.",
+        },
+        {
             title: "Web Development Bootcamp",
             company: "OFPPT",
             duration: "2022 - 2025",
